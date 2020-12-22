@@ -3,10 +3,11 @@ import Directory from '../../components/directory/Directory'
 
 import './HomePage.scss'
 
+
 const HomePage = () => (
-	<div className="homepage">
+	<div className="homepage" >
 		<Directory />
-	</div >
+	</div>
 )
 
 export default HomePage
