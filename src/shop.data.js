@@ -274,7 +274,6 @@ const SHOP_DATA = [
         id: 35,
         name: 'Burgundy T-shirt',
         imageUrl: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
-        // imageUrl: "/images/shop-img/mens/polka-dot-shirt.png",
         price: 25
       }
     ]
