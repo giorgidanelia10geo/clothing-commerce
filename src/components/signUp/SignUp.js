@@ -1,7 +1,7 @@
 import React from 'react'
 import { auth, createUserProfileDocument } from '../../utils/firebase.utils'
 import FormInput from '../forminput/FormInput'
-import CostumButton from '../costumButton/CostumButton'
+import CostumButton from '../costumbutton/CostumButton'
 
 import './SignUp.scss'
 
