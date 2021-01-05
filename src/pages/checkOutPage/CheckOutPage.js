@@ -6,7 +6,7 @@ import CheckoutItem from '../../components/checkoutitem/CheckoutItem'
 
 import './CheckOutPage.scss'
 
-const CheckOutPage = ({ cartItems, total }) => {
+const CheckOutPage = ({ cartItems, total, removeItem }) => {
   return (
     <div className="checkout-page">
       <div className="checkout-header">
