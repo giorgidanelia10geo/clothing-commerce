@@ -13,10 +13,14 @@ export const addItemToCart = (cartItems, cartItemToAdd) => {
 }
 
 export const clearItem = (cartItems, cartItemToClear) => {
-  const existingCartItem = cartItems.find(cartItem => cartItem.id === cartItemToClear.id)
+  const existingCartItem = cartItems.find(
+    cartItem => cartItem.id === cartItemToClear.id
+  )
 
   if (existingCartItem.quantity === 1) {
-    return cartItems.filter(cartItem => cartItem.id !== cartItemToClear.id)
+    return cartItems.filter(
+      cartItem => cartItem.id !== cartItemToClear.id
+    )
   }
 
   return cartItems.map(cartItem =>
