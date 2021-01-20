@@ -1,0 +1,12 @@
+.sign-in-and-sign-up {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 50px auto;
+
+  @media screen and (max-width: 800px) {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 100px;
+  }
+}
